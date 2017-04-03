@@ -2,7 +2,7 @@
 cal 2 1997
 output=$(cal 2 1997);
 
-while read -r line;do
+while read line;do
 echo "Printing Each Line";
 echo "$line";
 word=$(echo $line | tr " " "\n");
